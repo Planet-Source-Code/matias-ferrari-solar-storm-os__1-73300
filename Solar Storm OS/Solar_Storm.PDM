@@ -1,0 +1,302 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Archivo .dep 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS1
+
+[Package|Archivo .dep 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Jet 2.x=Yes
+
+[Package|Archivo .dep 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Archivo .dep 1|Files Found]
+
+[Package|Archivo .dep 1|Files Released]
+
+[Package|Archivo .dep 1|Missing Dependency Information]
+C:\WINDOWS\system32\wmp.dll=
+C:\WINDOWS\system32\ieframe.dll=
+C:\WINDOWS\system32\Dbgrid32.ocx=
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ChamaleonButton.ocx=
+C:\WINDOWS\system32\sensapi.dll=
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ExplorerSS.exe=
+
+[Package|Archivo .dep 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Archivo .dep 1|Files Added]
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ExplorerSS.exe=
+
+[Package|Archivo .dep 1|Files Removed]
+
+[Package|Archivo .dep 1|Files In Project]
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\Solar Storm OS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\sensapi.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2ES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCES.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\RCHTXES.DLL=Yes
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ChamaleonButton.ocx=Yes
+C:\WINDOWS\system32\Dbgrid32.ocx=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\WINDOWS\system32\wmp.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\odbc32.dll=Yes
+C:\WINDOWS\system32\RDO20ES.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ExplorerSS.exe=Yes
+
+[Package|Archivo .dep 1|Configure Registry Files]
+Applicable=
+
+[Package|Archivo .dep 1|Configure Remote Servers]
+Applicable=
+
+[Package|Archivo .dep 1|Install Locations]
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\Solar Storm OS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\sensapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXES.DLL=$(WinSysPath)
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ChamaleonButton.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Dbgrid32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ieframe.dll=$(WinSysPath)
+C:\WINDOWS\system32\wmp.dll=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\odbc32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RDO20ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ExplorerSS.exe=$(AppPath)
+
+[Package|Archivo .dep 1|Configure Shared Files]
+Applicable=
+
+[Package|Archivo .dep 1|DepFile]
+DepCabFile=Solar Storm OS.CAB
+DepCabRun=Solar Storm OS.INF
+
+[Package|Archivo .dep 1|Package]
+PackageFolder=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS1
+ProjectFolder=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS
+ServerSideCab=
+File1=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS1\Solar Storm OS.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS1\Paquete
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Jet 2.x=Yes
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ExplorerSS.exe=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\Solar Storm OS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\sensapi.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCC2ES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\WINSKES.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCMCES.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\RCHTXES.DLL=Yes
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ChamaleonButton.ocx=Yes
+C:\WINDOWS\system32\Dbgrid32.ocx=Yes
+C:\WINDOWS\system32\ieframe.dll=Yes
+C:\WINDOWS\system32\wmp.dll=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20ES.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ExplorerSS.exe=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\Solar Storm OS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\sensapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCC2ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\WINSKES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXES.DLL=$(WinSysPath)
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ChamaleonButton.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Dbgrid32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ieframe.dll=$(WinSysPath)
+C:\WINDOWS\system32\wmp.dll=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDO20ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ExplorerSS.exe=$(AppPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\Solar Storm OS.exe=Yes
+C:\WINDOWS\system32\wmp.dll=No
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS\ExplorerSS.exe=Yes
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Solar Storm
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=Solar Storm
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Solar Storm]
+Icon1="Solar Storm OS.exe"
+Title1=Solar Storm
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS1\Paquete
+ProjectFolder=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS
+ServerSideCab=
+File1=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS1\Paquete\setup.exe
+File2=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS1\Paquete\Setup.Lst
+File3=C:\Documents and Settings\Administrador\Escritorio\Solar Storm OS1\Paquete\Solar Storm OS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
